@@ -1,0 +1,100 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('../font/Roboto-Regular.ttf') @ttf;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../font/Roboto-Medium.ttf') @ttf;
+  font-weight: 500;
+}
+
+body {
+	background-color: #E5E5E5 !important;
+	font-family: 'Roboto', sans-serif !important;
+	font-size: 14px;
+	font-weight: 400;
+}
+main {
+	padding: 24px 2.5%
+}
+header {
+	box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+}
+
+.main-nav, .sub-nav {
+	background-color: #FFFFFF;
+}
+
+.main-nav {
+	border-bottom: 1px solid #DDE0E6;
+}
+
+.main-nav a {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #2D2F33;
+}
+
+.sub-nav a {
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 20px;
+	letter-spacing: 0.015em;
+	color: #6E7178;
+}
+
+.map-card iframe {
+	width: 100%;
+	height: 404px;
+}
+
+.card {
+	margin-bottom: 24px;
+	border: 1px solid #DDE0E6 !important;
+	border-radius: 0 !important;
+}
+
+.card-body {
+	padding: 16px !important;
+}
+
+.card-body .card-title {
+	margin-bottom: 16px;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 20px;
+	letter-spacing: 0.005em;
+	text-align: left;
+}
+
+.card-text {
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 20px;
+	letter-spacing: 0.005em;
+	text-align: left;
+}
+.card-img {
+	border-radius: 0 !important;
+}
+
+.posts-list {
+	padding: 0;
+	margin: 0;
+}
+
+
+.user-info {
+	min-height: 352px;
+}
+
+.user-bar {
+	width: 352px !important;
+	max-width: 352px !important;
+	height: 100px;
+}
