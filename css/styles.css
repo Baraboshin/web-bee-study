@@ -23,19 +23,34 @@ header {
 	box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
 }
 
+.btn:focus {
+	box-shadow: none !important;
+}
+
 .main-nav, .sub-nav {
 	background-color: #FFFFFF;
 }
 
 .main-nav {
+	min-height: 64px;
+	padding: 16px 1.2% !important;
 	border-bottom: 1px solid #DDE0E6;
+	box-sizing: border-box;
 }
 
-.main-nav a {
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 24px;
+.main-nav a,
+.main-nav a:hover,
+.main-nav a:focus,
+.main-nav a:visited {
 	color: #2D2F33;
+}
+
+.pointer-icon {
+	margin-right: 23px;
+}
+
+.main-nav .nav-item button {
+	margin-left: 20px;
 }
 
 .sub-nav a {
