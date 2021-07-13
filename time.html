@@ -8,60 +8,92 @@
 	</head>
 	<body>
 		<header>
-			<ul class="nav main-nav left-column">
-				<li class="nav-item me-auto pointer d-flex align-items-center">
-					<a class="nav-link p-0 d-flex align-items-center" href="#">
-						<img src="images/icons/chevron-left-icon.svg" alt="chevron-left-icon" class="pointer-icon">
-						<span class="pointer-text">User Pages</span>
-					</a>
-				</li>
-				<li class="nav-item d-flex align-items-center">
-					<button class="btn p-0">
-						<img src="images/icons/bell-icon.svg" alt="bell-icon">
-					</button>
-				</li>
-				<li class="nav-item d-flex align-items-center">
-					<button class="btn btn-link p-0">
-						<img src="images/icons/user-icon.svg" alt="user-icon">
-					</button>
-				</li>
-			</ul>
-			<ul class="nav sub-nav">
-				<li class="nav-item">
-					<a class="nav-link active" aria-current="page" href="index.html">Activity</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="map.html">Map</a>
-				</li>
-				<li class="nav-item me-auto">
-					<a class="nav-link" href="time.html">Time</a>
-				</li>
-				<li class="nav-item ms-auto">
-					<a class="nav-link active" aria-current="page" href="#">Notes</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="map.html">Friends</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="time.html">Photos</a>
-				</li>
-				<li class="nav-item dropdown mr-0 ml-auto">
-					<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
-				</li>
-			</ul>
-		</header>
+      <div class="main-nav">
+        <div class="wrapper">
+          <ul class="nav left-column">
+            <li class="nav-item me-auto pointer d-flex align-items-center">
+              <a class="nav-link p-0 d-flex align-items-center" href="#">
+                <img src="images/icons/chevron-left-icon.svg" alt="chevron-left-icon" class="pointer-icon">
+                <span class="pointer-text">User Pages</span>
+              </a>
+            </li>
+            <li class="nav-item d-flex align-items-center">
+              <button class="btn p-0">
+                <img src="images/icons/bell-icon.svg" alt="bell-icon">
+              </button>
+            </li>
+            <li class="nav-item d-flex align-items-center">
+              <button class="btn btn-link p-0">
+                <img src="images/icons/user-icon.svg" alt="user-icon">
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="sub-nav">
+        <div class="wrapper">
+          <ul class="nav ">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">
+                <img class="item-img" src="images/icons/subtract-icon.svg" alt="subtract-icon">
+                <span>Activity</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="map.html">
+                <img class="item-img" src="images/icons/calendar-icon.svg" alt="calendar-icon-active">
+                <span>Map</span>
+              </a>
+            </li>
+            <li class="nav-item active me-auto">
+              <a class="nav-link active" href="time.html">
+                <img class="item-img" src="images/icons/gear-icon-active.svg" alt="calendar-icon-active">
+                <span>Time</span>
+              </a>
+            </li>
+            <li class="nav-item ms-auto">
+              <a class="nav-link" aria-current="page" href="#">
+                <img class="item-img" src="images/icons/sheet-icon.svg" alt="sheet-icon">
+                <span>Notes</span>
+              </a>
+            </li>
+            <li class="nav-item disabled">
+              <a class="nav-link" href="map.html">
+                <img class="item-img" src="images/icons/user-icon.svg" alt="user-icon">
+                <span>Friends</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="time.html">
+                <img class="item-img" src="images/icons/user-icon.svg" alt="user-icon">
+                <span>Photos</span>
+              </a>
+            </li>
+            <li class="nav-item dropdown mr-0 ml-auto">
+              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">
+                <img class="item-img" src="images/icons/gear-icon.svg" alt="gear-icon">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
 		<main>
-			<div class="card map-card">
-	      <div class="card-body">
-	      	<div class="d-flex">
-					 <h5 class="card-title">Timer</h5>
-	        	<button type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"></button>
-					</div>
-					<div class="card-text collapse" id="collapseExample">
-						<p class="timerValue mb-0"></p>
-					</div>
-				</div>
-			</div>
+
+
+      <div class="wrapper">
+        <div class="card map-card">
+          <div class="card-body">
+            <div class="d-flex">
+              <h5 class="card-title">Timer</h5>
+              <button type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"></button>
+            </div>
+            <div class="card-text collapse" id="collapseExample">
+              <p class="timerValue mb-0"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
 		</main>
 		<script src="js/timer.js"></script>
 	</body>

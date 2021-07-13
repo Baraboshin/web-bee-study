@@ -8,55 +8,87 @@
 	</head>
 	<body>
 		<header>
-			<ul class="nav main-nav left-column">
-				<li class="nav-item me-auto pointer d-flex align-items-center">
-					<a class="nav-link p-0 d-flex align-items-center" href="#">
-						<img src="images/icons/chevron-left-icon.svg" alt="chevron-left-icon" class="pointer-icon">
-						<span class="pointer-text">User Pages</span>
-					</a>
-				</li>
-				<li class="nav-item d-flex align-items-center">
-					<button class="btn p-0">
-						<img src="images/icons/bell-icon.svg" alt="bell-icon">
-					</button>
-				</li>
-				<li class="nav-item d-flex align-items-center">
-					<button class="btn btn-link p-0">
-						<img src="images/icons/user-icon.svg" alt="user-icon">
-					</button>
-				</li>
-			</ul>
-			<ul class="nav sub-nav">
-				<li class="nav-item">
-					<a class="nav-link" href="index.html">Activity</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="map.html">Map</a>
-				</li>
-				<li class="nav-item me-auto">
-					<a class="nav-link" href="time.html">Time</a>
-				</li>
-				<li class="nav-item ms-auto">
-					<a class="nav-link active" aria-current="page" href="#">Notes</a>
-				</li>
-				<li class="nav-item disabled">
-					<a class="nav-link" href="map.html">Friends</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="time.html">Photos</a>
-				</li>
-				<li class="nav-item dropdown mr-0 ml-auto">
-					<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
-				</li>
-			</ul>
+      <div class="main-nav">
+        <div class="wrapper">
+          <ul class="nav left-column">
+            <li class="nav-item me-auto pointer d-flex align-items-center">
+              <a class="nav-link p-0 d-flex align-items-center" href="#">
+                <img src="images/icons/chevron-left-icon.svg" alt="chevron-left-icon" class="pointer-icon">
+                <span class="pointer-text">User Pages</span>
+              </a>
+            </li>
+            <li class="nav-item d-flex align-items-center">
+              <button class="btn p-0">
+                <img src="images/icons/bell-icon.svg" alt="bell-icon">
+              </button>
+            </li>
+            <li class="nav-item d-flex align-items-center">
+              <button class="btn btn-link p-0">
+                <img src="images/icons/user-icon.svg" alt="user-icon">
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="sub-nav">
+        <div class="wrapper">
+          <ul class="nav ">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">
+                <img class="item-img" src="images/icons/subtract-icon.svg" alt="subtract-icon">
+                <span>Activity</span>
+              </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link active" href="map.html">
+                <img class="item-img" src="images/icons/calendar-icon-active.svg" alt="calendar-icon-active">
+                <span>Map</span>
+              </a>
+            </li>
+            <li class="nav-item me-auto">
+              <a class="nav-link" href="time.html">
+                <img class="item-img" src="images/icons/gear-icon.svg" alt="calendar-icon-active">
+                <span>Time</span>
+              </a>
+            </li>
+            <li class="nav-item ms-auto">
+              <a class="nav-link" aria-current="page" href="#">
+                <img class="item-img" src="images/icons/sheet-icon.svg" alt="sheet-icon">
+                <span>Notes</span>
+              </a>
+            </li>
+            <li class="nav-item disabled">
+              <a class="nav-link" href="map.html">
+                <img class="item-img" src="images/icons/user-icon.svg" alt="user-icon">
+                <span>Friends</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="time.html">
+                <img class="item-img" src="images/icons/user-icon.svg" alt="user-icon">
+                <span>Photos</span>
+              </a>
+            </li>
+            <li class="nav-item dropdown mr-0 ml-auto">
+              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">
+                <img class="item-img" src="images/icons/gear-icon.svg" alt="gear-icon">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+
 		</header>
 		<main>
-			<div class="card map-card">
-	      <div class="card-body">
-	        <h5 class="card-title">Basic map</h5>
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d345147.40102694626!2d18.850122543295793!3d47.480872206758995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741c334d1d4cfc9%3A0x400c4290c1e1160!2z0JHRg9C00LDQv9C10YjRgiwg0JLQtdC90LPRgNC40Y8!5e0!3m2!1sru!2sru!4v1626112185734!5m2!1sru!2sru" style="border:0;" allowfullscreen loading="lazy"></iframe>
-				</div>
-			</div>
+      <div class="wrapper">
+        <div class="card map-card">
+          <div class="card-body">
+            <h5 class="card-title">Basic map</h5>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d345147.40102694626!2d18.850122543295793!3d47.480872206758995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741c334d1d4cfc9%3A0x400c4290c1e1160!2z0JHRg9C00LDQv9C10YjRgiwg0JLQtdC90LPRgNC40Y8!5e0!3m2!1sru!2sru!4v1626112185734!5m2!1sru!2sru" style="border:0;" allowfullscreen loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
 		</main>
 	</body>
 </html>
