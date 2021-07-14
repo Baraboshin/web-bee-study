@@ -6,7 +6,6 @@ const time = {
 
 
 function timeCounter() {
-	time.seconds += 1;
 	if(time.seconds === 60) {
 		time.minutes += 1;
 		time.seconds = 0;
@@ -17,6 +16,8 @@ function timeCounter() {
 	}
 	let el = document.querySelector(".timerValue");
 	el.textContent = time.hours.toString().padStart(2,"0") + ":" + time.minutes.toString().padStart(2,"0") + ":" + time.seconds.toString().padStart(2,"0");
+	time.seconds += 1;
 };
 setInterval(() => timeCounter(), 1000);
 
+timeCounter()
